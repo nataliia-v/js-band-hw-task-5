@@ -7,7 +7,7 @@ install:
   - npm install
 
 script:
-  - npm run test
+  - npm test
   - npm run eslint
   - npm run build
 
@@ -17,4 +17,4 @@ deploy:
   github-token: $GITHUB_TOKEN
   local_dir: build
   on:
-    branch: master
+    branch: gh-pages
