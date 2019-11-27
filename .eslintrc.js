@@ -15,12 +15,15 @@ module.exports = {
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "plugins": ["jest"],
+    "plugins": ["jest", "prettier"],
     "rules": {
+        'prettier/prettier': 'error',
+        'comma-dangle': ['error', 'always-multiline'],
         "jest/no-disabled-tests": "warn",
         "jest/no-focused-tests": "error",
         "jest/no-identical-title": "error",
         "jest/prefer-to-have-length": "warn",
-        "jest/valid-expect": "error"
+        "jest/valid-expect": "error",
+        "no-console":0,
     }
 };
