@@ -7,7 +7,6 @@ export default (caption, columns) => {
   const thead = document.createElement('thead');
   const tbody = document.createElement('tbody');
   tbody.classList.add('tbody');
-  console.log(columns);
 
   columns.forEach(column => {
     const columnCell = document.createElement('th');
