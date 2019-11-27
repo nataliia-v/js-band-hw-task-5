@@ -26,6 +26,7 @@
     "@babel/preset-env": "^7.7.4",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
     "eslint": "^6.7.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.5.0",
@@ -39,10 +40,11 @@
     "husky": "^3.0.9",
     "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
+    "node-sass": "^4.13.0",
     "prettier": "^1.19.1",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^7.3.1",
     "static": "^2.0.0",
-    "style-loader": "^0.23.0",
+    "style-loader": "^0.23.1",
     "stylelint": "^9.5.0",
     "stylelint-webpack-plugin": "^0.10.5",
     "uglifyjs-webpack-plugin": "^2.2.0",
@@ -55,7 +57,8 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.7.4"
+    "@babel/runtime": "^7.7.4",
+    "normalize.css": "^8.0.1"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
