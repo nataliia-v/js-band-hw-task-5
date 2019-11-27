@@ -6,3 +6,5 @@ export const bbb = () => {
   return 'ddd';
 };
 console.log(bbb);
+
+console.log('sum UPD', sum(2, 4));
