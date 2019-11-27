@@ -1,7 +1,7 @@
 {
-  "name": "js-band-hw-task-4",
+  "name": "js-band-hw-task-5",
   "version": "1.0.0",
-  "description": "Ciklum University: JS Band Internship. Homework task 4",
+  "description": "Ciklum University: JS Band Internship. Homework task 5",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nataliia-v/js-band-hw-task-4.git"
+    "url": "git+https://github.com/nataliia-v/js-band-hw-task-5.git"
   },
   "author": "Nataliia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nataliia-v/js-band-hw-task-4/issues"
+    "url": "https://github.com/nataliia-v/js-band-hw-task-5/issues"
   },
-  "homepage": "https://github.com/nataliia-v/js-band-hw-task-4#readme",
+  "homepage": "https://github.com/nataliia-v/js-band-hw-task-5#readme",
   "devDependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
     "@babel/plugin-transform-runtime": "^7.7.4",

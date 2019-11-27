@@ -3,6 +3,6 @@ export const sum = (a, b) => {
 };
 
 export const bbb = () => {
-  return 'ddd'
+  return 'ddd';
 };
 console.log(bbb);
