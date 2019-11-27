@@ -11,10 +11,13 @@ script:
   - npm run eslint
   - npm run build
 
+before_deploy:
+  - git checkout ${TRAVIS_BRANCH}
+
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local_dir: build
   on:
-    branch: gh-pages
+    branch: master
