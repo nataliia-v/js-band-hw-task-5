@@ -58,7 +58,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.7.4",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "uuid": "^3.3.3"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
