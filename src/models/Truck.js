@@ -9,8 +9,7 @@ class Truck extends Transport {
   }
 
   showAverageSpeed() {
-    // eslint-disable-next-line no-alert
-    alert(`${this.averageSpeed}km`);
+    return `${this.averageSpeed}km`;
   }
 }
 
