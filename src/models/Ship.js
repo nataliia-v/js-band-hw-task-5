@@ -9,7 +9,7 @@ class Ship extends Transport {
   }
 
   showAverageSpeed() {
-    console.log(`${this.averageSpeed}nm`);
+    return `${this.averageSpeed}nm`;
   }
 }
 
