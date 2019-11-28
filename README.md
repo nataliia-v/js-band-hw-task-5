@@ -16,3 +16,6 @@ https://nataliia-v.github.io/js-band-hw-task-5/
 
 #### Run test:
 * npm run test
+
+#### Run test coverage:
+* npm run test-coverage
